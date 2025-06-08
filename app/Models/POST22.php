@@ -31,7 +31,11 @@ class POST22 extends Authenticatable
     protected $hidden = [
         'password',
         'remember_token',
+        'remember_token1',
+        'remember_token12',
+        'remember_token1213',
     ];
+   public $num = 13;
 
     /**
      * Get the attributes that should be cast.
